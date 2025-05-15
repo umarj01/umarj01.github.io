@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: #080808;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="">
+      <div>
+        <div> </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umar Javaid Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(0, 0, 41);
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(10, 10, 25, 0.7);
+      backdrop-filter: blur(5px);
+      z-index: 999;
+      padding: 0 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .left {
+      font-size: 1.8rem;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .left:hover {
+      color: #581eeb;
+      transform: scale(1.05);
+    }
+
+    nav ul {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      list-style: none;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+      transition: color 0.3s;
+      position: relative;
+    }
+
+    nav ul li a:hover {
+      color: #581eeb;
+    }
+
+    nav ul li a::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      background-color: #581eeb;
+      left: 0;
+      bottom: -5px;
+      transition: width 0.3s ease-in-out;
+    }
+
+    nav ul li a:hover::after {
+      width: 100%;
+    }
+
+    /* Main Section with Pseudo Circles */
+    .style-contain {
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background-color: #020119;
+      margin-top: 60px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .style-contain::before,
+    .style-contain::after {
+      content: "";
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background-color: #110d28;
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    .style-contain::before {
+      top: -100px;
+      left: -100px;
+    }
+
+    .style-contain::after {
+      bottom: -100px;
+      right: -100px;
+    }
+
+    .connect-text {
+      text-align: center;
+      z-index: 10;
+      color: #ccc;
+      padding: 20px;
+    }
+
+    .connect-text h1 {
+      font-size: 2.5rem;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    .connect-text h1 span {
+      color: #5042ae;
+    }
+
+    .connect-text p {
+      margin-top: 10px;
+      font-size: 1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .connect-text .get-in-touch {
+      background-color: #070543;
+      color: rgb(54, 245, 245);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+      margin-bottom: 15px;
+    }
+
+    .connect-text .get-in-touch:hover {
+      background-color: #581eeb;
+      color: white;
+    }
+
+    .connect-button {
+      position: relative;
+      background-color: #070543;
+      color: rgb(54, 245, 245);
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+      z-index: 10;
+      margin-top: 30px;
+    }
+
+    .connect-button:hover {
+      background-color: #581eeb;
+      color: #fff;
+    }
+
+    /* Right section */
+    .right-sec {
+      margin: 100px 20px 0 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .right-box {
+      width: 35%;
+      height: 400px;
+      background-color: #1a1645;
+      border-radius: 15px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .right-box {
+        width: 90%;
+      }
+
+      .connect-text h1 {
+        font-size: 2rem;
+      }
+
+      .style-contain {
+        height: auto;
+        padding: 50px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="left">Umar Javaid</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="style-contain">
+      <div class="connect-text">
+        <button class="get-in-touch">🔵 Get in Touch</button>
+        <h1>Let's <span>Connect</span></h1>
+        <p>Have a question, project idea, or just want to say hello? I'd love to hear from you. Fill out the form below or reach out through any of my social channels.</p>
+      </div>
+      <!-- <div class="connect-button">Let's Connect</div> -->
+    </section>
+
+    <section class="right-sec">
+      <div class="right-box"></div>
+    </section>
+
+  </main>
+
+</body> -->
+
+</html>

@@ -1,0 +1,49 @@
+.last-page {
+    background-color: rgb(2, 13, 44);
+    margin-top: 0px;
+    color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px; 
+    flex-wrap: wrap;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .footer-column {
+    min-width: 200px;
+  }
+
+  .footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #0f62fe;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .footer-column ul li:hover {
+    color: #ffffff;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    /* background-color: #0a0a23; */
+    /* background-color: #191970; */
+    background-color: (90deg, #0f2027, #3b6a7a, #2c5364)
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+ 
+  }
