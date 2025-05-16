@@ -72,6 +72,7 @@
      /* border: 0.5px solid rgb(4, 0, 255); */
      /* box-shadow: 0 0 15px rgba(0, 0, 255, 0.873); */
      /* box-shadow: 0 8px 24px rgba(231, 41, 41, 0.3) ; */
+       box-shadow: 0 0 20px rgba(75, 133, 219, 0.873);  
      /* Blue glow */
      transition: transform 0.5s ease, box-shadow 0.5s ease;
      perspective: 1000px;
