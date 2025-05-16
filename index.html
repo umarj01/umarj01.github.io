@@ -21,7 +21,25 @@
 </head>
 
 <body>
-    <header>
+<header>
+      <nav>
+      <div class="left">Umar Javaid</div>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="right">
+        <ul>
+          <li class="logo"><a href="index.html">Home</a></li>
+          <li class="logo"><a href="resume.html">Resume</a></li>
+          <li class="logo"><a href="blogs.html">Blogs</a></li>
+          <li class="logo"><a href="#contact-section">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+<!--     <header>
         <nav>
             <div class="left">Umar Javaid</div>
             <div class="right">
@@ -33,7 +51,7 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header> -->
     <main>
         <section class="firt-section">
             <div class="left-section">
@@ -308,7 +326,14 @@
             strings: ['<b>Web devolper</b>  ', '&amp; <b>Cyber security', ' &amp;<b> Software Engeenier </b> ', '&amp;<b>Ethical Hacker</b>'],
             typeSpeed: 50,
         });
-
     </script>
+<script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('nav .right ul');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+    
 </body>
 </html>
