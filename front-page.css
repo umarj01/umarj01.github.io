@@ -157,89 +157,99 @@ background-color: #0a0a3a;
 height: 2px;
  }
 
-   @media (max-width: 768px) {
-    .firt-section {
-        flex-direction: column;
-  
-/*         margin: 0 20px; */
-        padding-top: 60px;
-    }
+  /* MOBILE FIRST ADJUSTMENTS */
+@media (max-width: 768px) {
+  .firt-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;       /* keep everything left-aligned */
+    padding-top: 60px;
+    margin-right: 0;
+    margin-left: 20px;             /* give some breathing room */
+  }
 
-    .left-section,
-    .right-section {
-        width: 100%;
-/*         text-align: center; */
-    }
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
 
-    .left-section > div {
-        width: 100%;
-        margin: 10px 0;
-    }
+  .left-section > div {
+    width: 100%;
+    margin: 10px 0;
+  }
 
-    .first-line {
-        margin: 20px auto;
-        width: fit-content;
-        font-size: 14px;
-    }
+  /* badge/tag */
+  .first-line {
+    margin: 20px 0 0 0;
+    width: auto;
+    font-size: 12px;
+  }
 
-    .intro {
-        font-size: 24px;
-        line-height: 1.3;
-    }
+  /* your “Hi, I am…” intro text */
+  .intro {
+    font-size: 22px;
+    line-height: 1.3;
+    text-align: left;
+  }
 
-    .web-dev {
-        font-size: 32px;
-    }
+  /* “Building Skills & Breaking Barriers” */
+  .web-dev {
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: left;
+  }
 
-    .para1 {
-        font-size: 14px;
-        padding: 10px;
-        line-height: 1.6;
-    }
+  /* paragraph under it */
+  .para1 {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 8px 0;
+    text-align: left;
+  }
 
-    .last {
-        flex-direction: column;
-        margin-top: 10px;
-    }
+  /* action buttons list */
+  .last {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .last ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
 
-    .last ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+  /* your illustration */
+  .firstimg {
+    width: 80%;
+    height: auto;
+    margin: 20px 0 0 0;            /* tucked under the text, still left‑aligned */
+  }
 
-    .btn {
-        padding: 8px 15px;
-        font-size: 14px;
-    }
+  /* small heading under the image if you have one */
+  #element {
+    font-size: 18px;
+    text-align: left;
+  }
 
-    .firstimg {
-        width: 80%;
-        height: auto;
-        margin: 20px auto 0;
-    }
-
-    #element {
-        font-size: 20px;
-    }
-
-    .first-hr {
-        margin: 30px 20px 0 20px;
-    }
+  /* divider */
+  .first-hr {
+    margin: 30px 0 0 0;
+  }
 }
 
+/* EXTRA SMALL SCREENS (e.g. older phones) */
 @media (max-width: 480px) {
-     .firt-section{
-           display: flex;
-        flex-direction: column;
-     }
-    .web-dev {
-        font-size: 26px;
-    }
-    .intro {
-        font-size: 20px;
-    }
-    #element {
-        font-size: 18px;
-    }
+  .intro {
+    font-size: 18px;
+  }
+  .web-dev {
+    font-size: 26px;
+  }
+  #element {
+    font-size: 16px;
+  }
 }
-
