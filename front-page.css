@@ -171,7 +171,7 @@ height: 2px;
   .left-section,
   .right-section {
     width: 100%;
-        margin-left: 50px;    
+        margin-left: 20px;    
   }
 
   .left-section > div {
@@ -182,7 +182,7 @@ height: 2px;
   /* badge/tag */
   .first-line {
     margin-left: 40px;
-    font-size: 12px;
+    font-size: 32px;
     margin-bottom: 10px;
   }
 
@@ -196,7 +196,7 @@ height: 2px;
   /* “Building Skills & Breaking Barriers” */
   .web-dev {
        margin-left: 0px ;
-    font-size: 40px;
+    font-size: 100px;
     line-height: 1.2;
     text-align: left;
   }
@@ -204,7 +204,7 @@ height: 2px;
   /* paragraph under it */
   .para1 {
         margin-left: 0px ;
-    font-size: 14px;
+    font-size: 44px;
     line-height: 1.6;
     padding: 8px 0;
     text-align: left;
