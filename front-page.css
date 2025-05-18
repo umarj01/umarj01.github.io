@@ -228,6 +228,10 @@ height: 2px;
 }
 
 @media (max-width: 480px) {
+     .firt-section{
+           display: flex;
+        flex-direction: column;
+     }
     .web-dev {
         font-size: 26px;
     }
