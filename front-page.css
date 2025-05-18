@@ -161,10 +161,11 @@ height: 2px;
   .firt-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;       /* keep everything left-aligned */
+/*     align-items: flex-start;       */
+       /* keep everything left-aligned */
     padding-top: 60px;
     margin-right: 0;
-    margin-left: 20px;             /* give some breathing room */
+    margin-left: 50px;             /* give some breathing room */
   }
 
   .left-section,
