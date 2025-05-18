@@ -171,6 +171,7 @@ height: 2px;
   .left-section,
   .right-section {
     width: 100%;
+        margin-left: 50px;    
   }
 
   .left-section > div {
