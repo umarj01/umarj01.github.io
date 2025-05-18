@@ -157,7 +157,7 @@ background-color: #0a0a3a;
 height: 2px;
  }
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .firt-section {
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@ height: 2px;
 
   /* action buttons list */
   .last {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     margin-top: 10px;
   }
